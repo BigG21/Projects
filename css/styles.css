@@ -3,7 +3,7 @@
 } */
 
 .bg-image{
-    background-image: url("/images/anime\ background.png");
+    background-image: url("../images/anime\ background.png");
     height: 100vh;
     width: 100%;
     /* filter: blur(1px);
@@ -63,6 +63,11 @@
 }
 
 .output .previous-operand {
-    color: whitesmoke;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.output .current-operand {
+    color: gold;
     font-size: 1.5rem;
 }
